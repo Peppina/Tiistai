@@ -8,8 +8,8 @@ public class Lukija {
     
     private Scanner lukija;
     
-    public Lukija(Scanner lukija){
-        this.lukija = lukija;
+    public Lukija(){
+        this.lukija = new Scanner(System.in);
     }
     
     public String lueMerkkijono(){
